@@ -251,7 +251,7 @@ class LlamaAttention(nn.Module):
         hidden_states: torch.Tensor,
         rotary_cos_sin: Optional[torch.Tensor] = None,
         attention_mask: Optional[torch.Tensor] = None,
-        past_layer_kv: Optional[list[torch.FloatTensor]] = None,
+        past_layer_kv: Optional[torch.FloatTensor] = None,
         token_id: Optional[torch.Tensor] = None,
     ):
         bsz, q_len, _ = hidden_states.size()
