@@ -10,9 +10,6 @@ This is a minimalist deployment plan for the [Tiny-LLaMA-1.1B](https://huggingfa
 - All dynamic tensor shapes introduced by Large-Language Model (LLM) real-time inference are converted to static shapes and padded as needed.
 - A mechanism is implemented to prevent value overflow in RMSNorm when using FP16 precision.
 
-**If my open source projects have inspired you, giving me some sponsorship will be a great help to my subsequent open source work.** 
-[Support my subsequent open source work❤️🙏](https://kaihuatang.github.io/donate.html) [(Previous Supporters)](https://kaihuatang.github.io/supporters.html)
-
 
 ## Contents
 1. [Getting Started](#getting-started)
@@ -52,4 +49,5 @@ If you find this project helps your research, please kindly consider citing our 
     year = {2024},
     note = {\url{https://github.com/KaihuaTang/Minimalist-TinyLLaMA-to-Onnx}},
 }
+
 ```
