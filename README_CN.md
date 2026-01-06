@@ -10,8 +10,6 @@
 - 所有由大语言模型 (LLM) 实时推理引入的动态张量形状都被转换为静态形状，并根据需要进行填充。
 - 实现了一种机制，以防止在使用 FP16 精度时 RMSNorm 中的值溢出。
 
-**如果我的开源项目给您带来了启发，提供一些赞助将对我后续的开源工作有很大的帮助。** 
-[支持我的后续开源工作❤️🙏](https://kaihuatang.github.io/donate.html) [(往期支持者)](https://kaihuatang.github.io/supporters.html)
 
 ## Contents
 1. [使用指南](#使用指南)
@@ -50,4 +48,5 @@ dump_index（可选）: 转储第 i 个toekn的 kv cache 以进行诊断。
     year = {2024},
     note = {\url{https://github.com/KaihuaTang/Minimalist-TinyLLaMA-to-Onnx}},
 }
+
 ```
